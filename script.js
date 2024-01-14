@@ -37,7 +37,21 @@ console.log(myFirstJob);
 let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
-console.log(typeof true);
+// console.log(typeof true);
 console.log(typeof javaScriptIsFun);
-console.log(typeof 22);
-console.log(typeof "dog");
+// console.log(typeof 22);
+// console.log(typeof "dog");
+
+//dynamic typing simply means that we can easily change type of a value that is hold by a variable
+
+javaScriptIsFun = "hello!";
+console.log(typeof javaScriptIsFun);
+
+let year;
+console.log(year);
+cconsole.log(typeof year);
+
+year = 1995;
+console.log(typeof year);
+
+console.log(typeof null);
