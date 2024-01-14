@@ -70,6 +70,7 @@ var job = "programmer";
 job = "teacher";
 console.log(job);
 */
+//math operator
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -87,4 +88,14 @@ let x = 10 + 5; //15
 //reassingning the x value
 x += 10; //x = x + 10 = 25
 x *= 4; //x=x * 4 = 100
+x++;
+x--;
+x--;
 console.log(x);
+//comparison operator
+console.log(ageJonas > ageSarah); //>,<,>=,<=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
