@@ -21,7 +21,7 @@ let PI = 3.1415;
 let myFirstJob = "coder";
 let myCurrentJob = "teacher";
 console.log(myFirstJob);
-*/
+
 
 //the 7 primitive DATA TYPE
 // so there are diffrent type of primitive number,string,bullion,undefined,null,symbol and big int.
@@ -32,7 +32,7 @@ console.log(myFirstJob);
 //null also means 'empty value'
 //symbol (ES2015):value that is unique and cannot be change [not useful for now]
 //Biglnt (ES2020): Larger integers than the number type can hold
-// multi line comment in js is /* */
+// multi line comment in js is /*
 
 let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
@@ -55,3 +55,4 @@ year = 1995;
 console.log(typeof year);
 
 console.log(typeof null);
+*/
