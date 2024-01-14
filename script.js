@@ -10,6 +10,7 @@ console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
+//variable name convention
 let jonas_matilda = "jm";
 let $finction = 27;
 
