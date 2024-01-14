@@ -56,3 +56,16 @@ console.log(typeof year);
 
 console.log(typeof null);
 */
+//let can make you mutate
+let age = 30;
+age = 31;
+
+//const are immuatable
+const birthYear = 1991;
+// birthYear = 1990;
+//  const job;
+
+//var is the old way of declaring variable and it's works pretty much as let
+var job = "programmer";
+job = "teacher";
+console.log(job);
