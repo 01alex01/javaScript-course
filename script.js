@@ -33,3 +33,11 @@ console.log(myFirstJob);
 //symbol (ES2015):value that is unique and cannot be change [not useful for now]
 //Biglnt (ES2020): Larger integers than the number type can hold
 // multi line comment in js is /* */
+
+let javaScriptIsFun = true;
+console.log(javaScriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javaScriptIsFun);
+console.log(typeof 22);
+console.log(typeof "dog");
