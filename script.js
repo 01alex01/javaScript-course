@@ -99,7 +99,7 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
-*/
+
 
 const now = 2037;
 const ageJonas = now - 1991;
@@ -114,3 +114,30 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+*/
+const firstName = "jonas";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const jonas =
+  "i'm " + firstName + ", a " + (year - birthYear) + "year old " + job + " !";
+
+console.log(jonas);
+// A template literals, we can write a string in a more normal way, and then basically insert the variables directly into the string and they will simply be replaced so basically a template literals can assemble multiple pieces into final string.
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job} !`;
+console.log(jonasNew);
+console.log(`just a regular string... `);
+//multi line strings
+console.log(
+  "string with \n \
+multiple \n\
+lines\n\
+"
+);
+
+console.log(`string
+multiple
+lines`);
+//backticks ``
